@@ -27,8 +27,8 @@ From the *same OS version* as your target, do:
 ### sentry
 
 The target sentry version is 7.7.0. postinst calls `sentry init
-/usr/share/python/sentry/sentry.conf.py` if this file doesn't exist
-already, so as to provide a sample configuration file.
+/etc/sentry/sentry.conf.py` if this file doesn't exist already, so as
+to provide a sample configuration file.
 
 ### postgresql
 
@@ -44,6 +44,9 @@ as services, managed by supervisor.
 ### service
 
 Please note that *The sentry service won't start by default on package
-installation.*.  You'll have to configure what needs to be configured,
-and tickle supervisor so it picks up the changes.
+installation*.  You'll have to configure whatever it is that needs to
+be configured, and tickle supervisor so it picks up the changes, i.e.:
+
+    # supervisorctl reread
+    # supervisorctl update
 

@@ -4,7 +4,7 @@ Section: python
 Priority: extra
 Standards-Version: 3.9.5
 Homepage: https://www.getsentry.com/
-Build-Depends: debhelper (>= 9), python, dh-virtualenv (>= 0.7-2)
+Build-Depends: debhelper (>= 9), python, dh-virtualenv (>= 0.7-2), libxml2-dev, libxslt1-dev, libpython2.7-dev, postgresql-server-dev-9.4
 
 Package: sentry
 Architecture: any
