@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+if [ "$1" = "configure" ] || [ "$1" = "reconfigure" ]; then
+    if [ ! -e /usr/share/python/sentry/sentry.conf.py ]; then
+        /usr/share/python/sentry/bin/sentry init /usr/share/python/sentry/sentry.conf.py
+    fi
+fi
