@@ -11,16 +11,16 @@ or might not work on other debian and debian based systems.
 From the *same OS version* as your target, do:
 
     $ git clone git@github.com:dhatim/sentry-deb.git
-    $ cd sentry-deb/sentry-7.7.0
+    $ cd sentry-deb/pkg
     $ dpkg-buildpackage -us -uc
     $ cd ..
     $ ls -1
     README.md
-    sentry-7.7.0
-    sentry_7.7.0.dsc
-    sentry_7.7.0.tar.gz
-    sentry_7.7.0_amd64.changes
-    sentry_7.7.0_amd64.deb
+    sentry-7.7.0-0
+    sentry_7.7.0-0.dsc
+    sentry_7.7.0-0.tar.gz
+    sentry_7.7.0-0_amd64.changes
+    sentry_7.7.0-0_amd64.deb
 
 ## some more details
 
