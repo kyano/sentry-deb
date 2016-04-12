@@ -1,2 +1,2 @@
-sentry==8.2.3
+sentry==8.3.2
 psycopg2
