@@ -1,8 +1,8 @@
-sentry (8.4.1-1) dhatim; urgency=medium
+sentry (8.5.1-1) dhatim; urgency=medium
 
   *  bump version
 
- --   Dhatim <contact@dhatim.net>  Wed, 01 Jun 2016 11:00:00 +0200
+ --   Dhatim <contact@dhatim.net>  Wed, 08 Jun 2016 22:21:00 +0200
  
 sentry (8.4.0-2) dhatim; urgency=medium
 
