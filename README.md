@@ -49,3 +49,17 @@ be configured, and tickle supervisor so it picks up the changes, i.e.:
     # supervisorctl reread
     # supervisorctl update
 
+### upgrade procedure
+
+```bash
+$ sudo supervisorctl stop sentry-web
+sentry-web: stopped
+$ sudo supervisorctl stop sentry-worker
+sentry-worker: stopped
+$ sudo /usr/share/python/sentry/bin/sentry --config /etc/sentry/sentry.conf.py upgrade
+...
+$ sudo supervisorctl start sentry-worker
+sentry-worker: started
+$ sudo supervisorctl start sentry-web
+sentry-web: started
+```
