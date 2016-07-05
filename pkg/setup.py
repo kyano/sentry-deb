@@ -7,7 +7,7 @@ if __name__ == '__main__' and sys.argv[1] == 'test':
 
 setup(
     name='sentry',
-    version='8.5.1',
+    version='8.6.0',
     author='Raphaël Berbain',
     author_email='rberbain@dhatim.com',
     packages=[],
