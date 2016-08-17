@@ -56,6 +56,8 @@ $ sudo supervisorctl stop sentry-web
 sentry-web: stopped
 $ sudo supervisorctl stop sentry-worker
 sentry-worker: stopped
+$ sudo apt-get update
+$ sudo apt-get install sentry
 $ sudo /usr/share/python/sentry/bin/sentry --config /etc/sentry/sentry.conf.py upgrade
 ...
 $ sudo supervisorctl start sentry-worker
