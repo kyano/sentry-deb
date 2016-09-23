@@ -4,8 +4,9 @@ sentry (8.8.0-1.1) UNRELEASED; urgency=medium
   * Depends on postgresql-server-dev-9.5 to build on sid.
   * Apply extra pip args to avoid build failure.
   * Update postinst.
+  * Add supervisord configurations for cron process.
 
- -- Anho Ki <kyano@kyano.pe.kr>  Thu, 22 Sep 2016 21:06:16 +0900
+ -- Anho Ki <kyano@kyano.pe.kr>  Fri, 23 Sep 2016 16:28:05 +0900
 
 sentry (8.8.0-1) dhatim; urgency=medium
 

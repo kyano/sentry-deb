@@ -1,8 +1,10 @@
 #!/usr/bin/make -f
 
 override_dh_virtualenv:
-	#dh_virtualenv --extra-pip-arg='--no-binary' --extra-pip-arg=':all:'
 	dh_virtualenv --extra-pip-arg='--no-binary=:all:'
+
+	sed -i 's/local_hostname=DNS_NAME.get_fqdn())/local_hostname=DNS_NAME.get_fqdn(), timeout=30)/' \
+		debian/sentry/usr/share/python/sentry/lib/python2.7/site-packages/django/core/mail/backends/smtp.py
 
 %:
 	dh $@ --with python-virtualenv
