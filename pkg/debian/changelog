@@ -1,12 +1,24 @@
-sentry (8.8.0-1.1) UNRELEASED; urgency=medium
+sentry (8.9.0-2.1) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
-  * Depends on postgresql-server-dev-9.5 to build on sid.
+  * Depends on postgresql-server-dev-9.6 to build on sid.
   * Apply extra pip args to avoid build failure.
   * Update postinst.
   * Add supervisord configurations for cron process.
 
  -- Anho Ki <kyano@kyano.pe.kr>  Fri, 23 Sep 2016 16:28:05 +0900
+
+sentry (8.9.0-2) dhatim; urgency=medium
+
+  *  integrate sentry-slack
+
+ --   Dhatim <contact@dhatim.net>  Tue, 18 Oct 2016 10:48:00 +0200
+
+sentry (8.9.0-1) dhatim; urgency=medium
+
+  *  bump version
+
+ --   Dhatim <contact@dhatim.net>  Thu, 06 Oct 2016 16:24:00 +0200
 
 sentry (8.8.0-1) dhatim; urgency=medium
 
