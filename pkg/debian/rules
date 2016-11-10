@@ -8,8 +8,5 @@ override_dh_virtualenv:
 	sed -i 's/local_hostname=DNS_NAME.get_fqdn())/local_hostname=DNS_NAME.get_fqdn(), timeout=30)/' \
 		debian/sentry/opt/venvs/sentry/lib/python2.7/site-packages/django/core/mail/backends/smtp.py
 
-override_dh_strip:
-	# do nothing
-
 %:
 	dh $@ --with python-virtualenv
