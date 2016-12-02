@@ -1,3 +1,9 @@
+sentry (8.11.0-1) dhatim; urgency=medium
+
+  *  bump version, fix service definitions
+
+ --   Dhatim <contact@dhatim.net>  Thu, 02 Dec 2016 21:52:00 +0200
+
 sentry (8.10.0-2) dhatim; urgency=medium
 
   *  fix installation path in packaging
