@@ -8,6 +8,9 @@ if [ "$1" = "configure" ] || [ "$1" = "reconfigure" ]; then
     if [ ! -e /etc/sentry/sentry.conf.py ]; then
         mkdir -p /etc/sentry
         chown sentry:sentry /etc/sentry
-        sudo -u sentry /usr/share/python/sentry/bin/sentry init /etc/sentry
+        sudo -u sentry /opt/venvs/sentry/bin/sentry init /etc/sentry
+    else
+        # migrate
+        sudo -u sentry /opt/venvs/sentry/bin/sentry --config /etc/sentry upgrade
     fi
 fi
