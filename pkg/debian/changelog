@@ -1,4 +1,4 @@
-sentry (8.10.0-1.1) UNRELEASED; urgency=low
+sentry (8.11.0-1.1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
   * Depends on postgresql-server-dev-9.6 to build on sid.
@@ -6,6 +6,18 @@ sentry (8.10.0-1.1) UNRELEASED; urgency=low
   * Add supervisord configurations for cron process.
 
  -- Anho Ki <kyano@kyano.pe.kr>  Thu, 10 Nov 2016 19:19:38 +0900
+
+sentry (8.11.0-1) dhatim; urgency=medium
+
+  *  bump version, fix service definitions
+
+ --   Dhatim <contact@dhatim.net>  Thu, 02 Dec 2016 21:52:00 +0200
+
+sentry (8.10.0-2) dhatim; urgency=medium
+
+  *  fix installation path in packaging
+
+ --   Dhatim <contact@dhatim.net>  Thu, 02 Dec 2016 21:52:00 +0200
 
 sentry (8.10.0-1) dhatim; urgency=medium
 
