@@ -1,3 +1,9 @@
+sentry (8.12.0-1) dhatim; urgency=medium
+
+  *  bump version
+
+ --   Dhatim <contact@dhatim.net>  Wed, 18 Jan 2017 12:28:00 +0200
+
 sentry (8.11.0-1) dhatim; urgency=medium
 
   *  bump version, fix service definitions
