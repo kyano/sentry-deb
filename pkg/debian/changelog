@@ -1,4 +1,4 @@
-sentry (8.11.0-1.1) UNRELEASED; urgency=low
+sentry (8.12.0-1.1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
   * Depends on postgresql-server-dev-9.6 to build on sid.
@@ -6,6 +6,12 @@ sentry (8.11.0-1.1) UNRELEASED; urgency=low
   * Add supervisord configurations for cron process.
 
  -- Anho Ki <kyano@kyano.pe.kr>  Thu, 10 Nov 2016 19:19:38 +0900
+
+sentry (8.12.0-1) dhatim; urgency=medium
+
+  *  bump version
+
+ --   Dhatim <contact@dhatim.net>  Wed, 18 Jan 2017 12:28:00 +0200
 
 sentry (8.11.0-1) dhatim; urgency=medium
 
@@ -48,37 +54,37 @@ sentry (8.7.0-1) dhatim; urgency=medium
   *  bump version
 
  --   Dhatim <contact@dhatim.net>  Wed, 17 Aug 2016 13:54:00 +0200
- 
+
 sentry (8.6.0-1) dhatim; urgency=medium
 
   *  bump version
 
  --   Dhatim <contact@dhatim.net>  Tue, 05 Jul 2016 12:11:00 +0200
- 
+
 sentry (8.5.1-1) dhatim; urgency=medium
 
   *  bump version
 
  --   Dhatim <contact@dhatim.net>  Wed, 08 Jun 2016 22:21:00 +0200
- 
+
 sentry (8.4.0-2) dhatim; urgency=medium
 
   * increase revision
 
  --   Dhatim <contact@dhatim.net>  Mon, 16 May 2016 15:52:00 +0200
- 
+
 sentry (8.4.0-1) dhatim; urgency=medium
 
   * bump version
 
  --   Dhatim <contact@dhatim.net>  Tue, 13 May 2016 17:35:40 +0200
- 
+
 sentry (8.3.2-1) dhatim; urgency=medium
 
   * bump version
 
  --   Dhatim <contact@dhatim.net>  Tue, 12 Apr 2016 09:27:11 +0200
- 
+
 sentry (8.2.3-1) dhatim; urgency=medium
 
   * bump version
